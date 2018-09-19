@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Add new recipe</title>
+  </head>
+  <body>
+    <h1>Add a new recipe</h1>
+    <form action="/recipes" method="post">
+      <p><label for="name">Name: </label><input type="text" name="recipe[name]" value="Enter recipe name" id="name" /></p>
+      <p><label for="ingredients" style="vertical-align: top;">Ingredients: </label><textarea name="recipe[ingredients]" value="Enter recipe ingredients" id="ingredients" rows=8 cols=40></textarea></p>
+    </label>
+    <label for="cook_time">Cook time: <input type="text" name="recipe[cook_time]" value="" id="name" /></p>
+      <input type="submit" value="Submit" id="submit">
+    </form>
+  </body>
+</html>
